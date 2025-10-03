@@ -2,7 +2,7 @@
     
 **Estructura del documento principal:**
 
-# PRESENTACIÓN (Título/Nombre Proyecto)
+# PRESENTACIÓN (MyVet)
 
 **Asignatura**: Bases de Datos I (FaCENA-UNNE)
 
@@ -17,11 +17,24 @@
 
 ### Caso de estudio
 
-Maecenas molestie lacus tincidunt, placerat dolor et, ullamcorper erat. Mauris tortor nisl, ultricies ac scelerisque nec, feugiat in nibh. 
+El presente caso de estudio aborda el diseño y desarrollo de un sistema de gestión para una veterinaria. Este sistema permitirá administrar de manera centralizada la información de mascotas, propietarios, veterinarios, turnos, consultas médicas y vacunaciones, así como gestionar los distintos roles y permisos de usuario que interactúan con la aplicación.
+
+El sistema busca optimizar el proceso de atención veterinaria y la gestión interna, permitiendo un manejo más eficiente y ágil de los datos relacionados con la salud de las mascotas y la organización de los turnos. La plataforma está orientada tanto a los veterinarios como al personal administrativo, brindando herramientas que faciliten la planificación de consultas, el seguimiento de tratamientos y vacunas, y el control del historial clínico de cada paciente.
 
 ### Definición o planteamiento del problema
 
-Pellentesque interdum aliquam magna sit amet rutrum. Nulla aliquam ligula nec quam iaculis dictum. In cursus aliquam cursus. Nullam a sem vel sapien iaculis finibus. Donec aliquam dictum viverra. Etiam ut orci lacus.
+El objetivo principal del sistema es resolver las dificultades que enfrentan mcuhas veterinarias debido a la ausencia de un sistema integrado que permita gestionar de manera eficiente las distintas áreas de atención y administración. Entre los problemas más comunes que se presentan se encuentran:
+
+Registros dispersos o manuales: La información de mascotas, propietarios, consultas y vacunas suele estar fragmentada en planillas, archivos físicos o sistemas poco especializados, lo que incrementa el riesgo de pérdida de datos y errores administrativos.
+
+Gestión ineficiente de turnos y consultas: La falta de un sistema organizado ocasiona solapamiento de horarios, cancelaciones mal registradas o dificultad para dar seguimiento al historial clínico de cada paciente.
+
+Control limitado de tratamientos y vacunaciones: Sin un registro digital centralizado, resulta complejo llevar un seguimiento claro de vacunas aplicadas o tratamientos en curso, generando riesgos para la salud de las mascotas.
+
+Problemas de trazabilidad en la atención médica: La ausencia de un historial clínico completo dificulta la toma de decisiones por parte de los veterinarios y limita la capacidad de personalizar la atención.
+
+Falta de control de accesos y roles: Cuando diferentes usuarios (administrativos, veterinarios, recepcionistas) interactúan en el sistema sin un adecuado control de permisos, se generan problemas de seguridad y uso indebido de información sensible.
+
 
 ## CAPITULO II: MARCO CONCEPTUAL O REFERENCIAL
 
