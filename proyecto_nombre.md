@@ -7,11 +7,11 @@
 **Asignatura**: Bases de Datos I (FaCENA-UNNE)
 
 **Integrantes**:
- - Sed vel lectus nec lectus placerat laoreet et sed est.
+ - Coronel, Antonio.
  - Sed ac justo ac mauris porttitor convallis non sit amet felis.
  - In tincidunt augue sed molestie malesuada.
 
-**Año**: 2024
+**Año**: 2025
 
 ## CAPÍTULO I: INTRODUCCIÓN
 
