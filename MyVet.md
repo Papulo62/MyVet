@@ -78,7 +78,7 @@ PRODUCT-CATEGORY  ||--|{  PRODUCT  : contains
 PRODUCT  ||--o{  ORDER-ITEM  : "ordered in"
 ```
 ### Diagrama relacional
-![diagrama_relacional](https://github.com/dovillegas/basesdatos_proyecto_estudio/blob/main/doc/image_relational.png)
+![diagrama_relacional](https://raw.githubusercontent.com/Papulo62/MyVet/refs/heads/main/doc/modelo_relacional.png)
 
 ### Diccionario de datos
 
