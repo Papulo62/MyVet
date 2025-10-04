@@ -8,8 +8,9 @@
 
 **Integrantes**:
  - Coronel, Antonio.
- - Sed ac justo ac mauris porttitor convallis non sit amet felis.
- - In tincidunt augue sed molestie malesuada.
+ - Ovalle Bravo, Bautista.
+ - Mas Gonzalez, Fernando.
+ - Saucedo, Germán.
 
 **Año**: 2025
 
