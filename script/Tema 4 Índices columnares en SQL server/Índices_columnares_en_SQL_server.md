@@ -157,6 +157,3 @@ En las pruebas realizadas sobre la tabla `consulta` con 1 millón de registros, 
 3. **Procesamiento más eficiente:** El modo de procesamiento por lotes (batch mode) del índice columnar permitió procesar grandes cantidades de datos más rápidamente que el procesamiento fila por fila de los índices tradicionales.
 
 4. **Compresión de datos:** El almacenamiento columnar comprimió eficientemente los datos, especialmente en columnas con valores repetitivos como id_veterinario y id_mascota.
-
-Los índices columnares demuestran ser la tecnología ideal para consultas analíticas en sistemas veterinarios donde se necesita generar reportes estadísticos, análisis de tendencias de consultas, estadísticas de vacunación o cualquier tipo de agregación sobre grandes volúmenes de datos históricos. Sin embargo, para operaciones transaccionales diarias (registro de nuevas consultas, actualización de historiales), los índices tradicionales siguen siendo más apropiados.
-
