@@ -35,14 +35,21 @@ Falta de control de accesos y roles: Cuando diferentes usuarios (administrativos
 
 ## CAPITULO II: MARCO CONCEPTUAL O REFERENCIAL
 
-**TEMA 1 " ---- "** 
-Ut sed imperdiet risus. Maecenas vestibulum arcu vitae orci pretium pharetra. Suspendisse potenti. Fusce massa libero, fermentum eget elit in, tincidunt fermentum nunc. Cras imperdiet nisl elit, elementum gravida enim accumsan vel. Sed in sapien quis ante consectetur commodo id non nulla. Aenean lacinia, dolor convallis semper mattis, ante orci elementum nunc, eget feugiat risus neque in urna. Ut ut quam nec risus mollis convallis ornare ac odio. Phasellus efficitur posuere nibh, eget tempor augue pellentesque ac. Ut enim sem, imperdiet non est ut, blandit posuere dui. Curabitur at purus orci. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+TEMA 1 " Manejo de permisos a nivel de usuarios de base de datos "
 
+Acceder a la siguiente carpeta para ver el desarrollo del tema Manejo de permisos a nivel de usuarios de base de datos
 
-**TEMA 2 " ----- "** 
-Ut sed imperdiet risus. Maecenas vestibulum arcu vitae orci pretium pharetra. Suspendisse potenti. Fusce massa libero, fermentum eget elit in, tincidunt fermentum nunc. Cras imperdiet nisl elit, elementum gravida enim accumsan vel. Sed in sapien quis ante consectetur commodo id non nulla. Aenean lacinia, dolor convallis semper mattis, ante orci elementum nunc, eget feugiat risus neque in urna. Ut ut quam nec risus mollis convallis ornare ac odio. Phasellus efficitur posuere nibh, eget tempor augue pellentesque ac. Ut enim sem, imperdiet non est ut, blandit posuere dui. Curabitur at purus orci. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+TEMA 2 " Procedimientos y funciones almacenadas "
 
-...
+Acceder a la siguiente carpeta para ver el desarrollo del tema Procedimientos y funciones almacenadas
+
+TEMA 3 " Optimización de consultas a través de índices "
+
+Acceder a la siguiente carpeta para ver el desarrollo del tema Optimización de consultas a través de índices
+
+TEMA 4 " Índices columnares en SQL server "
+
+Acceder a la siguiente carpeta para ver el desarrollo del tema Índices columnares en SQL server
 
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 
