@@ -4,8 +4,6 @@
 
 Los índices columnares (columnstore indexes) son una tecnología de almacenamiento de datos que organiza la información por columnas en lugar de por filas, como ocurre en los índices tradicionales. Esta forma de organización resulta especialmente eficiente para consultas analíticas que procesan grandes volúmenes de datos, ya que permite leer únicamente las columnas necesarias para la consulta, reduciendo drásticamente la cantidad de información que debe procesarse.
 
-En el contexto de un sistema de gestión veterinaria, los índices columnares son ideales para generar reportes estadísticos, análisis de tendencias y consultas de agregación sobre millones de registros históricos, donde el rendimiento de las consultas tradicionales puede degradarse significativamente.
-
 ## ¿Qué es un Índice Columnstore?
 
 Un índice columnstore es una estructura de datos que almacena la información organizándola por columnas en lugar de por filas. Mientras que en una tabla tradicional los datos de cada registro completo se almacenan juntos, en un índice columnar los valores de cada columna se almacenan de forma contigua.
