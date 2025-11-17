@@ -35,21 +35,21 @@ Falta de control de accesos y roles: Cuando diferentes usuarios (administrativos
 
 ## CAPITULO II: MARCO CONCEPTUAL O REFERENCIAL
 
-TEMA 1 " Manejo de permisos a nivel de usuarios de base de datos "
+**TEMA 1 " Procedimientos y funciones almacenadas   "**
 
-Acceder a la siguiente carpeta para ver el desarrollo del tema Manejo de permisos a nivel de usuarios de base de datos
+> Acceder a la siguiente carpeta para ver el desarrollo del tema [Manejo de permisos a nivel de usuarios de base de datos]()
 
-TEMA 2 " Procedimientos y funciones almacenadas "
+**TEMA 2 "Optimización de consultas a través de índices"** 
 
-Acceder a la siguiente carpeta para ver el desarrollo del tema Procedimientos y funciones almacenadas
+> Acceder a la siguiente carpeta para ver el desarrollo del tema [Procedimientos y funciones almacenadas](https://github.com/Papulo62/MyVet/blob/main/script/Tema%202%20Optimizaci%C3%B3n%20de%20consultas%20a%20trav%C3%A9s%20de%20%C3%ADndices/Optimizaci%C3%B3n_de_consultas_a_trav%C3%A9s_de%20_indices.md)
 
-TEMA 3 " Optimización de consultas a través de índices "
+**TEMA 3 " Procedimientos y funciones almacenadas  "** 
 
-Acceder a la siguiente carpeta para ver el desarrollo del tema Optimización de consultas a través de índices
+> Acceder a la siguiente carpeta para ver el desarrollo del tema [Optimización de consultas a través de índices]()
 
-TEMA 4 " Índices columnares en SQL server "
+**TEMA 4 " Índices columnares en SQL server "**  
 
-Acceder a la siguiente carpeta para ver el desarrollo del tema Índices columnares en SQL server
+> Acceder a la siguiente carpeta para ver el desarrollo del tema [Índices columnares en SQL server](https://github.com/Papulo62/MyVet/blob/main/script/Tema%204%20%C3%8Dndices%20columnares%20en%20SQL%20server/%C3%8Dndices_columnares_en_SQL_server.md)
 
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 
