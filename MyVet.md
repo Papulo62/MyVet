@@ -35,17 +35,17 @@ Falta de control de accesos y roles: Cuando diferentes usuarios (administrativos
 
 ## CAPITULO II: MARCO CONCEPTUAL O REFERENCIAL
 
-**TEMA 1 " Procedimientos y funciones almacenadas   "**
+**TEMA 1 " Procedimientos y funciones almacenadas"**
 
-> Acceder a la siguiente carpeta para ver el desarrollo del tema [Manejo de permisos a nivel de usuarios de base de datos]()
+> Acceder a la siguiente carpeta para ver el desarrollo del tema [Procedimientos y funciones almacenadas]()
 
 **TEMA 2 "Optimización de consultas a través de índices"** 
 
-> Acceder a la siguiente carpeta para ver el desarrollo del tema [Procedimientos y funciones almacenadas](https://github.com/Papulo62/MyVet/blob/main/script/Tema%202%20Optimizaci%C3%B3n%20de%20consultas%20a%20trav%C3%A9s%20de%20%C3%ADndices/Optimizaci%C3%B3n_de_consultas_a_trav%C3%A9s_de%20_indices.md)
+> Acceder a la siguiente carpeta para ver el desarrollo del tema [Optimización de consultas a través de índices](https://github.com/Papulo62/MyVet/blob/main/script/Tema%202%20Optimizaci%C3%B3n%20de%20consultas%20a%20trav%C3%A9s%20de%20%C3%ADndices/Optimizaci%C3%B3n_de_consultas_a_trav%C3%A9s_de%20_indices.md)
 
-**TEMA 3 " Procedimientos y funciones almacenadas  "** 
+**TEMA 3 "Manejo de transacciones y transacciones anidadas"** 
 
-> Acceder a la siguiente carpeta para ver el desarrollo del tema [Optimización de consultas a través de índices]()
+> Acceder a la siguiente carpeta para ver el desarrollo del tema [Manejo de transacciones y transacciones anidadas](https://github.com/Papulo62/MyVet/blob/main/script/Tema%203%20Manejo%20de%20transacciones%20y%20transacciones%20anidadas/Manejo_de_transacciones_y_transacciones_anidadas.md)
 
 **TEMA 4 " Índices columnares en SQL server "**  
 
@@ -89,10 +89,10 @@ Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
 > Acceder a la siguiente carpeta para ver el desarrollo del script [Optimización de consultas a través de índices](https://github.com/Papulo62/MyVet/blob/main/script/Tema%202%20Optimizaci%C3%B3n%20de%20consultas%20a%20trav%C3%A9s%20de%20%C3%ADndices/optimizacion_de_consultas_a_traves_de_indices_script.sql)
 
 ### Desarrollo TEMA 3 "Manejo de transacciones y transacciones anidadas"
-> Acceder a la siguiente carpeta para ver el desarrollo del script [Manejo de transacciones y transacciones anidadas]()
+> Acceder a la siguiente carpeta para ver el desarrollo del script [Manejo de transacciones y transacciones anidadas](https://github.com/Papulo62/MyVet/blob/main/script/Tema%203%20Manejo%20de%20transacciones%20y%20transacciones%20anidadas/manejo_de_transacciones_y_transacciones_anidadas_script.sql)
 
 ### Desarrollo TEMA 4 "Índices columnares en SQL server"
-> Acceder a la siguiente carpeta para ver el desarrollo del script [Índices columnares en SQL server]()
+> Acceder a la siguiente carpeta para ver el desarrollo del script [Índices columnares en SQL server](https://github.com/Papulo62/MyVet/blob/main/script/Tema%204%20%C3%8Dndices%20columnares%20en%20SQL%20server/indices_columnares_script.sql)
 
 ## CAPÍTULO V: CONCLUSIONES
 
