@@ -53,13 +53,23 @@ Falta de control de accesos y roles: Cuando diferentes usuarios (administrativos
 
 ## CAPÍTULO III: METODOLOGÍA SEGUIDA 
 
-Donec lobortis tincidunt erat, non egestas mi volutpat in. Cras ante purus, luctus sed fringilla non, ullamcorper at eros.
-
  **a) Cómo se realizó el Trabajo Práctico**
-Vestibulum rutrum feugiat molestie. Nunc id varius augue. Ut augue mauris, venenatis et lacus ut, mattis blandit urna. Fusce lobortis, quam non vehicula scelerisque, nisi enim ultrices diam, ac tristique libero ex nec orci.
+Lo primero que hicimos fue decidir el caso estudio, cada uno propuso sus ideas y se terminó votando por el actual que nos pareció más idóneo.
+Luego se creó el diseño del Modelo Entidad-Relacion (ER), y posteriormente se hizo la carga de datos y a continuación el diccionario de datos.
+
+Luego de la primera entrega cada uno procedió a seleccionar un tema y desarrollarlo:
+- Procedimientos y funciones almacenadas.
+- Optimización de consultas a través de índices.
+- Manejo de transacciones y transacciones anidadas.
+- Índices columnares en SQL Server.
 
  **b) Herramientas (Instrumentos y procedimientos)**
-Donec lobortis tincidunt erat, non egestas mi volutpat in. Cras ante purus, luctus sed fringilla non, ullamcorper at eros. Integer interdum id orci id rutrum. Curabitur facilisis lorem sed metus interdum accumsan. 
+
+Utilizamos las siguientes herramientas:
+
+- ERD Plus es una herramienta intuitiva y efectiva para el modelado de bases de datos, que permite crear diagramas relacionales y conceptuales, además de generar código SQL. Con ERD Plus, logramos diseñar el esquema conceptual de nuestro proyecto.
+
+- SQL Server Management Studio 20 es un software de administración de bases de datos creado por Microsoft, diseñado principalmente para trabajar con SQL Server y otros lenguajes de consulta, allí desarrollamos las consultas para los temas individuales y carga de datos.
 
 
 ## CAPÍTULO IV: DESARROLLO DEL TEMA / PRESENTACIÓN DE RESULTADOS 
@@ -73,20 +83,30 @@ Acceso al documento [PDF](doc/diccionario_datos.pdf) del diccionario de datos.
 
 
 ### Desarrollo TEMA 1 "Procedimientos y funciones almacenadas"
-> Acceder a la siguiente carpeta para ver el desarrollo del script [Manejo de permisos a nivel de usuarios de base de datos]()
+> Acceder a la siguiente carpeta para ver el desarrollo del script [Procedimientos y funciones almacenadas]()
 
-### Desarrollo TEMA 2 "Optimización de consultas a través de índicess"
-> Acceder a la siguiente carpeta para ver el desarrollo del script [Procedimientos y funciones almacenadas](https://github.com/Papulo62/MyVet/blob/main/script/Tema%202%20Optimizaci%C3%B3n%20de%20consultas%20a%20trav%C3%A9s%20de%20%C3%ADndices/optimizacion_de_consultas_a_traves_de_indices_script.sql)
+### Desarrollo TEMA 2 "Optimización de consultas a través de índices"
+> Acceder a la siguiente carpeta para ver el desarrollo del script [Optimización de consultas a través de índices](https://github.com/Papulo62/MyVet/blob/main/script/Tema%202%20Optimizaci%C3%B3n%20de%20consultas%20a%20trav%C3%A9s%20de%20%C3%ADndices/optimizacion_de_consultas_a_traves_de_indices_script.sql)
 
-### Desarrollo TEMA 3 ""
-> Acceder a la siguiente carpeta para ver el desarrollo del script [Optimización de consultas a través de índices]()
+### Desarrollo TEMA 3 "Manejo de transacciones y transacciones anidadas"
+> Acceder a la siguiente carpeta para ver el desarrollo del script [Manejo de transacciones y transacciones anidadas]()
 
 ### Desarrollo TEMA 4 "Índices columnares en SQL server"
 > Acceder a la siguiente carpeta para ver el desarrollo del script [Índices columnares en SQL server]()
 
 ## CAPÍTULO V: CONCLUSIONES
 
-Nunc sollicitudin purus quis ante sodales luctus. Proin a scelerisque libero, vitae pharetra lacus. Nunc finibus, tellus et dictum semper, nisi sem accumsan ligula, et euismod quam ex a tellus. 
+Este trabajo práctico permitió comprender en profundidad la relevancia de las herramientas que ofrece SQL Server para mejorar el rendimiento, la integridad y la organización de los procesos dentro de una base de datos. A medida que avanzamos en cada uno de los temas, logramos alcanzar los objetivos propuestos, fortaleciendo nuestra capacidad para diseñar soluciones eficientes y seguras en entornos de gestión de datos.
+
+El análisis de los procedimientos y funciones almacenadas evidenció la importancia de centralizar la lógica del sistema, reducir la repetición de código y facilitar el mantenimiento. Su implementación permite estandarizar operaciones frecuentes, mejorar la organización interna y aumentar la cohesión del diseño de la base de datos.
+
+En cuanto a la optimización de consultas mediante índices pudimos comprobar cómo la elección correcta de índices adecuados eleva significativamente el rendimiento de las consultas. Su uso mejora los tiempos de respuesta, reduce la carga sobre el motor y garantiza un acceso más eficiente a la información almacenada.
+
+El manejo de transacciones y transacciones anidadas resultó esencial para comprender cómo garantizar la integridad de los datos en operaciones complejas o críticas. El uso de COMMIT, ROLLBACK y SAVEPOINT permitió observar cómo SQL Server asegura que un conjunto de acciones se ejecute de forma completa y consistente, evitando inconsistencias y facilitando la recuperación en caso de errores durante el proceso.
+
+Finalmente, el estudio de los índices columnares nos permitió apreciar su utilidad en escenarios con grandes volúmenes de datos. Este tipo de índice, diseñado específicamente para cargas analíticas, ofrece mejoras significativas en compresión, velocidad de lectura y eficiencia en consultas orientadas a análisis masivos.
+
+En conjunto, la aplicación de estos conceptos demuestra la importancia de comprender tanto las herramientas de optimización como los mecanismos de control interno del motor SQL Server. Un uso adecuado de estas técnicas permite construir bases de datos más seguras, eficientes y preparadas para responder de manera óptima ante diversas necesidades operativas. 
 
 
 
