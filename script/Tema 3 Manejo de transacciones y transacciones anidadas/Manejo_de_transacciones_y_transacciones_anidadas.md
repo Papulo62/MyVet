@@ -115,6 +115,3 @@ En sistemas veterinarios donde múltiples tablas relacionadas deben mantenerse s
 - Un ROLLBACK en transacciones anidadas revierte TODAS las transacciones
 - Validar datos antes de iniciar la transacción cuando sea posible
 
-- Microsoft Learn: [BEGIN TRANSACTION (Transact-SQL)](https://learn.microsoft.com/es-es/sql/t-sql/language-elements/begin-transaction-transact-sql)
-- Microsoft Learn: [TRY...CATCH (Transact-SQL)](https://learn.microsoft.com/es-es/sql/t-sql/language-elements/try-catch-transact-sql)
-- Microsoft Learn: [Transacciones anidadas](https://learn.microsoft.com/es-es/previous-versions/sql/sql-server-2008-r2/ms189336(v=sql.105))
