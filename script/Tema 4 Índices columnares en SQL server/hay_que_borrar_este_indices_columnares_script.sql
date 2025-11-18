@@ -1,4 +1,4 @@
--- SCRIPT DE ÕNDICES COLUMNARES
+-- SCRIPT DE √çNDICES COLUMNARES
 -- Base de Datos: DBMyVet
 -- Tabla origen: consulta (tabla de mayor ocurrencia)
 
@@ -8,17 +8,17 @@ GO
 -- CREAR TABLAS DE PRUEBA
 -- Se crean tres copias de la tabla consulta para comparar rendimiento
 
--- Crear tabla sin Ìndice columnar
+-- Crear tabla sin √≠ndice columnar
 SELECT * INTO consulta_sin_columnstore 
 FROM consulta 
 WHERE 1 = 0;
 
--- Crear tabla con Ìndice columnar
+-- Crear tabla con √≠ndice columnar
 SELECT * INTO consulta_con_columnstore 
 FROM consulta 
 WHERE 1 = 0;
 
--- Crear tabla con Ìndice agrupado tradicional (para comparaciÛn)
+-- Crear tabla con √≠ndice agrupado tradicional (para comparaci√≥n)
 SELECT * INTO consulta_con_agrupado 
 FROM consulta 
 WHERE 1 = 0;
@@ -26,7 +26,7 @@ WHERE 1 = 0;
 GO
 
 -- CARGA MASIVA DE REGISTROS
--- Se cargan las tres tablas con 1 millÛn de registros cada una
+-- Se cargan las tres tablas con 1 mill√≥n de registros cada una
 -- Los registros se generan variando datos de la tabla consulta original
 
 SET NOCOUNT ON;
@@ -115,28 +115,28 @@ SELECT COUNT(*) AS 'consulta_con_columnstore cantidad' FROM consulta_con_columns
 SELECT COUNT(*) AS 'consulta_con_agrupado cantidad' FROM consulta_con_agrupado;
 GO
 
--- CREAR ÕNDICES
--- Se crea un Ìndice columnar y un Ìndice agrupado tradicional
+-- CREAR √çNDICES
+-- Se crea un √≠ndice columnar y un √≠ndice agrupado tradicional
 
--- Crear Ìndice columnar no agrupado en la tabla consulta_con_columnstore
+-- Crear √≠ndice columnar no agrupado en la tabla consulta_con_columnstore
 CREATE NONCLUSTERED COLUMNSTORE INDEX IDX_Consulta_Columnstore 
 ON consulta_con_columnstore (fecha_consulta, id_mascota, id_veterinario, motivo, diagnostico);
 GO
 
--- Crear Ìndice agrupado tradicional en la tabla consulta_con_agrupado
+-- Crear √≠ndice agrupado tradicional en la tabla consulta_con_agrupado
 CREATE CLUSTERED INDEX IDX_Consulta_Agrupado_Fecha 
 ON consulta_con_agrupado (fecha_consulta);
 GO
 
--- CONSULTA ANALÕTICA - SIN ÕNDICE COLUMNAR
--- Consulta de agregaciÛn sobre la tabla sin Ìndice columnar
+-- CONSULTA ANAL√çTICA - SIN √çNDICE COLUMNAR
+-- Consulta de agregaci√≥n sobre la tabla sin √≠ndice columnar
 
 SET STATISTICS TIME ON;
 SET STATISTICS IO ON;
 
 SELECT 
     id_veterinario,
-    YEAR(fecha_consulta) AS aÒo,
+    YEAR(fecha_consulta) AS a√±o,
     MONTH(fecha_consulta) AS mes,
     COUNT(*) AS total_consultas,
     COUNT(DISTINCT id_mascota) AS mascotas_atendidas
@@ -149,15 +149,15 @@ SET STATISTICS TIME OFF;
 SET STATISTICS IO OFF;
 GO
 
--- CONSULTA ANALÕTICA - CON ÕNDICE COLUMNAR
--- La misma consulta sobre la tabla con Ìndice columnar
+-- CONSULTA ANAL√çTICA - CON √çNDICE COLUMNAR
+-- La misma consulta sobre la tabla con √≠ndice columnar
 
 SET STATISTICS TIME ON;
 SET STATISTICS IO ON;
 
 SELECT 
     id_veterinario,
-    YEAR(fecha_consulta) AS aÒo,
+    YEAR(fecha_consulta) AS a√±o,
     MONTH(fecha_consulta) AS mes,
     COUNT(*) AS total_consultas,
     COUNT(DISTINCT id_mascota) AS mascotas_atendidas
@@ -170,15 +170,15 @@ SET STATISTICS TIME OFF;
 SET STATISTICS IO OFF;
 GO
 
--- CONSULTA ANALÕTICA - CON ÕNDICE AGRUPADO TRADICIONAL
--- La misma consulta sobre la tabla con Ìndice agrupado para comparaciÛn
+-- CONSULTA ANAL√çTICA - CON √çNDICE AGRUPADO TRADICIONAL
+-- La misma consulta sobre la tabla con √≠ndice agrupado para comparaci√≥n
 
 SET STATISTICS TIME ON;
 SET STATISTICS IO ON;
 
 SELECT 
     id_veterinario,
-    YEAR(fecha_consulta) AS aÒo,
+    YEAR(fecha_consulta) AS a√±o,
     MONTH(fecha_consulta) AS mes,
     COUNT(*) AS total_consultas,
     COUNT(DISTINCT id_mascota) AS mascotas_atendidas
@@ -194,6 +194,6 @@ GO
 -- Documentar para cada prueba:
 -- 1. Tiempo de CPU (CPU time)
 -- 2. Tiempo transcurrido (elapsed time)
--- 3. Lecturas lÛgicas (logical reads)
+-- 3. Lecturas l√≥gicas (logical reads)
 -- 4. Scan count
--- 5. N˙mero de filas devueltas
+-- 5. N√∫mero de filas devueltas
