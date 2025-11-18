@@ -113,9 +113,11 @@ En conjunto, la aplicación de estos conceptos demuestra la importancia de compr
 ## BIBLIOGRAFÍA DE CONSULTA
 1. - Procedimientos almacenados: https://learn.microsoft.com/es-es/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-ver16
  2. - Create Function (Transact-SQL): https://learn.microsoft.com/es-es/sql/t-sql/statements/create-function-transact-sql?view=sql-server-ver16
- 3. - Roles en el nivel de base de datos: https://learn.microsoft.com/es-es/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-ver16
- 4. - Índices columnares en SQL server: https://learn.microsoft.com/es-es/sql/relational-databases/indexes/columnstore-indexes-overview?view=sql-server-ver16
- 5. - Referencia: Medina, B. (2019, octubre 16). Diseño efectivo de índices agrupados SQL Server. SQLShack en Español. https://www.sqlshack.com/es/diseno-efectivo-de-indices-agrupados-sql-server/
- 6. - Referencia: Medina, B. (2019, octubre 9). ¿Cuál es la diferencia entre índices agrupados y no agrupados en SQL Server? SQLShack en Español. https://www.sqlshack.com/es/cual-es-la-diferencia-entre-indices-agrupados-y-no-agrupados-en-sql-server/
- 7. - Referencia: Listopro Community. (n.d.). Índices y optimización en SQL. Listopro Community. https://community.listopro.com/indices-y-optimizacion-en-sql/
+ 3. - [BEGIN TRANSACTION (Transact-SQL)](https://learn.microsoft.com/es-es/sql/t-sql/language-elements/begin-transaction-transact-sql)
+ 4. - [TRY...CATCH (Transact-SQL)](https://learn.microsoft.com/es-es/sql/t-sql/language-elements/try-catch-transact-sql)
+ 5. - Índices columnares en SQL server: https://learn.microsoft.com/es-es/sql/relational-databases/indexes/columnstore-indexes-overview?view=sql-server-ver16
+ 6. - Transacciones anidadas: https://learn.microsoft.com/es-es/previous-versions/sql/sql-server-2008-r2/ms189336(v=sql.105
+ 7. - Referencia: Medina, B. (2019, octubre 16). Diseño efectivo de índices agrupados SQL Server. SQLShack en Español. https://www.sqlshack.com/es/diseno-efectivo-de-indices-agrupados-sql-server/
+ 8. - Referencia: Medina, B. (2019, octubre 9). ¿Cuál es la diferencia entre índices agrupados y no agrupados en SQL Server? SQLShack en Español. https://www.sqlshack.com/es/cual-es-la-diferencia-entre-indices-agrupados-y-no-agrupados-en-sql-server/
+ 9. - Referencia: Listopro Community. (n.d.). Índices y optimización en SQL. Listopro Community. https://community.listopro.com/indices-y-optimizacion-en-sql/
 
